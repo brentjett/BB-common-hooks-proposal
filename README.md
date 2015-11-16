@@ -1,2 +1,10 @@
 # BB-common-hooks-proposal
-Proposal for a common set of Beaver Builder module hooks
+
+This is a working draft proposal for a set of common module hooks for Beaver Builder module development. These hooks are designed to lessen the need to override built-in modules or create very similar custom modules.
+
+## Hook Opportunities
+* Module Class Names
+* Module wrapper attributes
+* Before module output
+* After module output
+* Additional filter: register_module forms
