@@ -14,7 +14,11 @@ This is a working draft proposal for a set of common module hooks for Beaver Bui
 ## Example frontend.php
 ```php
 <?php
-<<?php module_element('div') ?> <?php module_class('my-module-class') ?>>
+/**
+* This is an example of a module's frontend.php output file. Common tags would allow
+* all modules to have things like their element, classes, and attributes filtered by plugins.
+*/
+<<?php module_element('div') ?> <?php module_class('my-module-class') ?> <?php module_attrs() ?>>
 <?php before_module() ?>
   <div>
     <div>super cool module content</div>
